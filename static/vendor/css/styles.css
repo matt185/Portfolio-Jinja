@@ -1,0 +1,161 @@
+body{
+    width: 100%;
+    margin:0px
+}
+
+.section-dark{
+    background-color: rgb(78, 77, 77);
+    position: sticky !important;
+    top: 0px;
+    z-index:-1
+   
+}
+.section-light{
+    background-color: rgb(233, 233, 233);  
+}
+
+.subtitle{
+    font-weight: 600;
+}
+
+h3, li{
+    font-family: "Ubuntu";
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    list-style-position: outside;
+}
+
+.a-warning:hover{
+    color:#ffc107!important
+}
+
+.separator{
+    color:#ffc107!important;
+    width: 75%; 
+}
+
+.text-shadow-gold{
+    text-shadow: 2px 2px 5px #ffc107!important;
+}
+
+.text-shadow-gray{
+        text-shadow: 2px 2px 5px rgb(181, 178, 178)!important;
+}
+
+.text-shadow-dark{
+        text-shadow: 2px 2px 5px  rgb(78, 77, 77)!important;
+}
+
+.shadow{
+        box-shadow: 2px 2px 5px rgb(181, 178, 178)!important;
+}
+
+.shadow-dark{
+        box-shadow: 2px 2px 5px rgb(78, 77, 77)!important;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.0rem;
+    font-weight: 700;
+    color:rgb(78, 77, 77);
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+/* Profile */
+
+.major-title {
+    font-size: 3.5rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Ubuntu";
+    font-weight: 700;
+
+}
+
+/* Project */
+
+.project-card{
+    height: 575px;
+    width: 330px;
+    background-color:rgb(78, 77, 77);
+}
+
+.project-title{
+    color:rgb(78, 77, 77);
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.project-logo{
+    height: 220px;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.card-footer{
+    background-color:rgb(53, 52, 52);
+}
+
+.git-icon{
+    font-size:1.5rem;
+}
+
+/* Skills section */
+
+.skills-section{
+    background-color: rgb(78, 77, 77);
+}
+
+.skills-title{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.python-logo{
+    background-color: rgb(233, 233, 233);  
+    height: 150px;
+}
+
+/* Skills List*/
+
+.logo-img{
+    height: 80px;
+    width: 80px;
+}
+
+.logo-container{
+    height: 150px;
+    width: 120px;
+}
+
+.logo-container-image{
+    height: 65%;
+}
+
+.logo-container-name{
+    height: 20%;
+}
+
+/* Div test container */
+.cell{
+    border:7px solid green;
+}
