@@ -1,0 +1,38 @@
+<div class="text-center">
+    <div class="container-fluid row d-flex flex-row justify-content-around section-light p-3">
+        <h2 class="text-shadow-dark project-title d-flex justify-content-center mb-4">Portfolio Projects </h3>
+            <div class="form-container">
+                {{ wtf.quick_form(form) }}
+            </div>
+            {% for project in projects: %}
+            <div class="col-md-6 col-sm-12 col-lg-3 m-2 d-flex justify-content-center">
+                <div class="card project-card text-white d-flex align-items-center shadow-dark">
+                    <img src=" {{ url_for('static', filename=project['logo']) }}" class="card-img-top project-logo"
+                        alt="project-logo">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">{{ project["name"]}}</h5>
+                        <p class="card-text">{{project["description"]}}</p>
+                        <p class="card-text"><b class="text-warning">TechStack: </b>{{project["techStack"]}}</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center w-100">
+                        <a href="{{ project['link'] }}">
+                            <i class="git-icon fab fa-github text-warning"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+
+
+
+
+
+    <script>
+        const newdata = document.getElementById('search_field')
+        console.log(newdata.value)
+        newdata.onchange = function () {
+            console.log(newdata.value)
+        }
+    </script>
+</div>

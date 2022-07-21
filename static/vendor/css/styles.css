@@ -60,6 +60,7 @@ li{
         box-shadow: 2px 2px 5px rgb(78, 77, 77)!important;
 }
 
+
 /* Navbar */
 .navbar-brand{
     font-family: "Ubuntu";
@@ -158,4 +159,24 @@ li{
 /* Div test container */
 .cell{
     border:7px solid green;
+}
+
+/* Forms */
+
+/* remove the lable from the the form*/
+.control-label {
+    display: none;
+}
+
+/* set lable style */
+.form{
+    width: 75%;
+}
+
+.form-container{
+    width:75%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
 }
